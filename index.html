@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500;600&family=Syne:ital@1&display=swap" rel="stylesheet">
+    <title>Procrastinators University Userform</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <img src="./svg/logo.svg" alt="Procrastinators University Logo" class="logo">
+            <h1 class="site-title">Procrastinators University</h1>
+        </div>
+        <p class="slogan">"We're not lazy. We wait for inspiration..."</p>
+        <div class="banner">
+            <object
+                    type="image/svg+xml"
+                    data="svg/banner.svg"
+                    class="banner-img"
+                    aria-label="Procrastinators University Banner">
+            </object>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <form method="POST" novalidate>
+                <h2 class="form-title">Đăng ký thông tin người dùng</h2>
+                <div class="form-group">
+                    <label for="fullname">Họ và tên <span class="required-marker">*</span></label>
+                    <input type="text" id="fullname" name="fullname" maxlength="50" placeholder="Your legendary name…">
+                    <span class="error-message">Nice try at anonymity. We still need your name.</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Địa chỉ email <span class="required-marker">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="name@email.com">
+                    <span class="error-message">Close… but the internet disagrees. Fix the email.</span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số điện thoại <span class="required-marker">*</span></label>
+                    <input type="text" id="phone" name="phone" placeholder="0xxxxxxxxx or +84xxxxxxxxx">
+                    <span class="error-message">Math says no. We need exactly 10 digits — 0xxxxxxxxx or +84xxxxxxxxx.</span>
+                </div>
+                <div class="form-group">
+                    <label>Giới tính <span class="required-marker">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label"><input type="radio" name="gender" value="1"> Nam</label>
+                        <label class="radio-label"><input type="radio" name="gender" value="0"> Nữ</label>
+                        <label class="radio-label"><input type="radio" name="gender" value="2"> Khác</label>
+                    </div>
+                    <span class="error-message">Required field. Sadly, vibes alone aren't enough.</span>
+                </div>
+                <div class="form-group">
+                    <label>Sở thích</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label"><input type="checkbox" name="hobbies[]" value="1"> Thể thao</label>
+                        <label class="checkbox-label"><input type="checkbox" name="hobbies[]" value="2"> Phim ảnh</label>
+                        <label class="checkbox-label"><input type="checkbox" name="hobbies[]" value="3"> Đọc sách</label>
+                        <label class="checkbox-label"><input type="checkbox" name="hobbies[]" value="4"> Âm nhạc</label>
+                        <label class="checkbox-label"><input type="checkbox" name="hobbies[]" value="5"> Khác</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bio">Giới thiệu bản thân</label>
+                    <textarea id="bio" name="bio" placeholder="Why are you here (be honest)?"></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit">Okay, I'm Ready!</button>
+                    <button type="reset">Never Mind!</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p class="footer-label">Carefully procrastinated by</p>
+            <p class="footer-name">Nguyen Van A</p>
+            <p class="footer-detail">nguyenvana@procrastinators.edu &nbsp;·&nbsp; Class LastMinute101-A26</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

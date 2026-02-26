@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 20 12">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #2e2e4a;
+        fill-rule: evenodd;
+      }
+
+      .st1 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g class="st1">
+    <g id="charlie-brown">
+      <path class="st0" d="M9.8,12L0,2.2V.8l10,10L20,.8v1.4l-9.8,9.8h-.4ZM5.8,12L0,6.2v-1.4l7.2,7.2h-1.4ZM14.2,12l5.8-5.8v-1.4l-7.2,7.2h1.4ZM9.8,0l.2.2.2-.2h-.4ZM5.8,0l4.2,4.2L14.2,0h-1.4l-2.8,2.8L7.2,0h-1.4Z"/>
+    </g>
+  </g>
+</svg>
